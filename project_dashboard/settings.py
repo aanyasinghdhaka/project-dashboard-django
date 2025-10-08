@@ -6,8 +6,9 @@ import os # Make sure this import is at the top
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-vxyja#fmoeza@7qndz-_$5%)@%@cfzv+3n!+ys#@)$8!6)*$35'
+
+
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
