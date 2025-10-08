@@ -1,6 +1,7 @@
 # Project Tracking Dashboard
 
 An internal full-stack analytics dashboard built with **Django** and **Chart.js** to visualize project metrics and track progress.
+You can check out the project : https://aanya-project-dashboard.onrender.com/
 
 ## Features
 - Interactive **bar and pie charts** showing project progress and status distribution.  
