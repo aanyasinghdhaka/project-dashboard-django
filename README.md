@@ -15,9 +15,3 @@ An internal full-stack analytics dashboard built with **Django** and **Chart.js*
 
 ## About
 This project transforms raw project data into actionable insights, providing a centralized view of project metrics. It demonstrates expertise in **backend development**, **database management**, and **dynamic data visualization** with modern web technologies.  
-
-## Setup & Installation
-1. Clone the repository:  
-```bash
-git clone https://github.com/yourusername/project-dashboard.git
-cd project-dashboard
