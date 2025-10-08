@@ -13,7 +13,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['project_dashboard.onrender.com', '127.0.0.1']
+# project_dashboard/settings.py
+
+# ... (rest of the file) ...
+
+ALLOWED_HOSTS = ['aanya-project-dashboard.onrender.com']
+
+# ... (rest of the file) ...
 
 # Application definition
 INSTALLED_APPS = [
